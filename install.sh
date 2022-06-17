@@ -7,3 +7,5 @@ sudo dnf install postgresql13 postgresql13-server
 sudo systemctl enable postgresql-13
 sudo systemctl start postgresql-13
 sudo systemctl status postgresql-13
+sudo /usr/pgsql-*/bin/postgresql-*-setup initdb
+sudo su - postgres
